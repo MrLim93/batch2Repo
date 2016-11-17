@@ -220,7 +220,7 @@ public class Main {
 */
 
 
-        switch (randomizer2){
+        switch (MyMethod.randomizer2()){
             case 1:
                 System.out.print(MyMethod.getMyFriends()+" ");
                 System.out.print(MyMethod.getRelationship()+" ");

@@ -85,9 +85,11 @@ public class MyMethod {
         return myGirls.get(randomizer);
     }
 
-    public static int randomizer(){
+    public static int randomizer2(){
 
-        int randomizer = rand.nextInt(3);
+        Random rand = new Random();
+
+        return rand.nextInt(2);
     }
 
 }
